@@ -7,7 +7,7 @@ git clone https://github.com/vm7608/PBL2.git
 ```
 Simply run the exe file
 ```bash
-./MainPBl.exe
+./MainPBL.exe
 ```
 ## Made by
-Google.com + stackoverflow.com and Van Manh - Hoang Bao - Khanh Duong 😀
+google.com + stackoverflow.com and Van Manh - Hoang Bao - Khanh Duong 😀
