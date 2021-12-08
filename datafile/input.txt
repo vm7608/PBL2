@@ -1,0 +1,780 @@
+often /ˈɒf(ə)n/ adv
+thường
+harvest /ˈhɑː.vɪst/ verb
+thu hoạch
+comfy /ˈkʌm.fi/ adj
+dễ chịu
+try /traɪ/ verb
+thử
+arrange /əˈreɪndʒ/ verb
+sắp xếp
+poor /pɔːr/ adj
+nghèo
+stay /steɪ/ verb
+giữ nguyên
+name /neɪm/ noun
+tên gọi
+nearby /ˈnɪəbaɪ/ adv
+gần đây
+beautiful /ˈbjuː.tɪ.fəl/ adj
+đẹp
+away /əˈweɪ/ adv
+cách đây (bao xa)
+noisy /ˈnɔɪ.zi/ adj
+ồn ào
+scared /skeəd/ adj
+sợ hãi
+undercooked /ˌʌn.dəˈkʊkt/ adj
+chưa nấu kĩ
+rainy /ˈreɪ.ni/ adj
+nhiều mưa
+peaceful /ˈpiːs.fəl/ adj
+bình yên
+national /ˈnæʃ.ən.əl/ adj
+toàn quốc
+professionally /prəˈfɛʃnəli/ adv
+một cách chuyên nghiệp
+suffer /ˈsʌf.ər/ verb
+chịu đựng
+hand /hænd/ noun
+bàn tay
+pray /preɪ/ verb
+cầu nguyện
+office /ˈɔfəs/ noun
+văn phòng
+day /deɪ/ noun
+ngày
+completely /kəmˈplētlē/ adv
+hoàn toàn
+somewhere /ˈsʌmweə/ adv
+một nơi nào đó
+snack /snæk/ verb
+ăn vặt
+open /ˈəʊ.pən/ verb
+mở (một dịch vụ)
+furthermore /ˈfɜːðəˈmɔː/ adv
+hơn nữa
+country /ˈkʌntri/ noun
+đất nước
+person /ˈpɜrsən/ noun
+con người
+carelessly /ˈkeəlɪsli/ adv
+một cách cẩu thả
+unlike /ʌnˈlaɪk/ adv
+không giống như
+add /æd/ verb
+thêm
+home /hoʊm/ noun
+nhà
+sunbathe /ˈsʌn.beɪð/ verb
+tắm nắng
+enroll /ɪnˈrəʊl/ verb
+nhập học
+discover /dɪˈskʌv.ər/ verb
+khám phá
+develop /dɪˈvel.əp/ verb
+phát triển
+know /nəʊ/ verb
+biết
+result /rɪˈzʌlt/ noun
+kết quả
+fantastically /fanˈtastəklē/ adv
+tuyệt diệu
+crappy /ˈkræp.i/ adj
+dở tệ
+mean /miːn/ verb
+có ý định
+back /bæk/ noun
+phía sau
+touristy /ˈtʊə.rɪ.sti/ adj
+quá đông du khách
+throw /θrəʊ/ verb
+ném
+people /ˈpipəl/ noun
+con người
+information /ˌɪnfərˈmeɪʃən/ noun
+thông tin
+decorate /ˈdek.ə.reɪt/ verb
+trang trí
+friend /frɛnd/ noun
+người bạn
+world /wɜrld/ noun
+thế giới
+game /geɪm/ noun
+trò chơi
+education /ɛʤəˈkeɪʃən/ noun
+giáo dục
+word /wɜrd/ noun
+từ
+simply /ˈsɪmpli/ adv
+đơn giản
+slightly /ˈslaɪtli/ adv
+một chút
+history /ˈhɪstəri/ noun
+lịch sử
+hungrily /ˈhʌŋgrɪli/ adv
+một cách đói khát
+work /wɜrk/ noun
+công việc
+everywhere /ˈev.ri.weər/ adv
+khắp mọi nơi
+part /pɑrt/ noun
+bộ phận
+regularly /ˈreɡjələli/ adv
+một cách đều đặn
+city /ˈsɪti/ noun
+thành phố
+tidy /ˈtaɪ.di/ verb
+dọn dẹp
+raw /rɔː/ adj
+sống (chưa chín)
+care /keər/ verb
+quan tâm
+inform /ɪnˈfɔːm/ verb
+báo tin
+approach /əˈprəʊtʃ/ verb
+tiếp cận
+leisurely /ˈleʒ.ə.li/ adv
+một cách thong thả
+improve /ɪmˈpruːv/ verb
+cải thiện
+wholesale /ˈhəʊl.seɪl/ adv
+sỉ
+community /kəmˈjunəti/ noun
+cộng đồng
+familiar /fəˈmɪl.i.ər/ adj
+quen thuộc
+typical /ˈtɪp.ɪ.kəl/ adj
+điển hình
+easily /ˈiːzɪli/ adv
+một cách dễ dàng
+expensive /ɪkˈspen.sɪv/ adj
+đắt
+level /ˈlɛvəl/ noun
+cấp bậc
+line /laɪn/ noun
+vạch kẻ
+fresh /freʃ/ adj
+tươi
+father /ˈfɑðər/ noun
+cha
+point /pɔɪnt/ noun
+điểm
+book /bʊk/ noun
+cuốn sách
+lovely /ˈlʌv.li/ adj
+đáng yêu
+research /riˈsɜrʧ/ noun
+nghiên cứu
+enormously /ɪˈnɔːməsli/ adv
+cực kì
+mix /mɪks/ verb
+trộn
+year /jɪr/ noun
+năm
+angry /ˈæŋ.ɡri/ adj
+tức giận
+share /ʃeər/ verb
+chia sẻ
+water /ˈwɔtər/ noun
+nước 
+lazily /ˈleɪzɪli/ adv
+một cách lười biếng
+health /hɛlθ/ noun
+sức khỏe
+sometimes /ˈsʌmtaɪmz/ adv
+thỉnh thoảng
+excited /ɪkˈsaɪ.tɪd/ adj
+hào hứng
+forecast /ˈfɔː.kɑːst/ verb
+dự báo
+carefully /ˈkeə.fəl.i/ adv
+một cách cẩn thận
+personally /ˈpɜː.sən.əl.i/ adv
+về mặt cá nhân
+hangry /ˈhæŋ.ɡri/ adj
+cáu vì đói
+savoury /ˈseɪ.vər.i/ adj
+có vị mặn
+overpopulated /ˌəʊ.vəˈpɒp.jə.leɪ.tɪd/ adj
+quá tải dân số
+rely /rɪˈlɑɪ/ verb
+dựa dẫm
+case /keɪs/ noun
+trường hợp
+fully /ˈfʊl.i/ adv
+hoàn toàn
+president /ˈprɛzəˌdɛnt/ noun
+chủ tịch
+moment /ˈmoʊmənt/ noun
+hiện tại
+largely /ˈlɑːʤli/ adv
+phần lớn là
+memorise /ˈmem.ə.raɪz/ verb
+học thuộc
+occasionally /əˈkeɪʒnəli/ adv
+đôi khi
+prevent /prɪˈvent/ verb
+phòng tránh
+here /hɪə/ adv
+ở đây
+side /saɪd/ noun
+khía cạnh
+art /ɑrt/ noun
+nghệ thuật
+company /'kʌmpəni/ noun
+công ty
+humid /ˈhjuː.mɪd/ adj
+ẩm
+slowly /ˈsləʊ.li/ adv
+một cách từ từ
+confident /ˈkɒn.fɪ.dənt/ adj
+tự tin
+lately /ˈleɪtli/ adv
+gần đây
+accurately /ˈækjʊrɪtli/ adv
+một cách chính xác
+sunny /ˈsʌn.i/ adj
+nhiều nắng
+awful /ˈɔː.fəl/ adj
+kinh khủng
+taste /teɪst/ verb
+nếm thử
+yummy /ˈjʌm.i/ adj
+ngon
+minute /ˈmɪnət/ noun
+phút
+lend /lend/ verb
+cho vay
+idea /aɪˈdiə/ noun
+ý tưởng
+serve /sɜːv/ verb
+phục vụ
+system /ˈsɪstəm/ noun
+hệ thống
+car /kɑr/ noun
+xe hơi
+vibrant /ˈvaɪ.brənt/ adj
+sôi động
+bigly /ˈbiɡlē/ adv
+to lớn
+member /ˈmɛmbər/ noun
+thành viên
+grill /ɡrɪl/ verb
+nướng
+remarkably /rɪˈmɑːkəbli/ adv
+đáng kể
+remain /rɪˈmeɪn/ verb
+giữ nguyên
+believe /bɪˈliːv/ verb
+tin
+absent /ˈæb.sənt/ adj
+vắng mặt
+girl /gɜrl/ noun
+cô gái
+body /ˈbɑdi/ noun
+cơ thể
+cautiously /ˈkɔːʃəsli/ adv
+một cách cần trọng
+jobless /ˈdʒɒb.ləs/ adj
+thất nghiệp
+others /ˈʌðərz/ noun
+những cái khác
+tasty /ˈteɪ.sti/ adj
+ngon
+favourite /ˈfeɪ.vər.ɪt/ adj
+yêu thích
+kind /kaɪnd/ noun
+loại
+nowadays /ˈnaʊ.ə.deɪz/ adv
+ngày nay
+rich /rɪtʃ/ adj
+giàu
+spoil /spɔɪl/ verb
+bị hỏng
+thirsty /ˈθɜː.sti/ adj
+khát nước
+manage /ˈmæn.ɪdʒ/ verb
+quản lý
+strict /strɪkt/ adj
+nghiêm ngặt
+admit /ədˈmɪt/ verb
+thừa nhận
+spell /spel/ verb
+đánh vần
+through /θruː/ adv
+xuyên suốt
+nervous /ˈnɜː.vəs/ adj
+lo lắng
+raise /reɪz/ verb
+tăng
+strange /streɪndʒ/ adj
+kì lạ
+government /ˈgʌvərmənt/ noun
+chính phủ
+lively /ˈlaɪv.li/ adj
+sống động
+announce /əˈnaʊns/ verb
+thông báo
+terrible /ˈter.ə.bəl/ adj
+tồi tệ
+various /ˈveə.ri.əs/ adj
+đa dạng
+ageing /ˈeɪ.dʒɪŋ/ adj
+lão hóa
+group /grup/ noun
+nhóm
+cosy /ˈkəʊ.zi/ adj
+ấm cúng
+damage /ˈdæm.ɪdʒ/ verb
+phá hỏng
+party /ˈpɑrti/ noun
+bữa tiệc
+percent /pəˈsent/ adv
+phần trăm
+follow /ˈfɒl.əʊ/ verb
+theo đuổi
+absolutely /ˈæbsəluːtli/ adv
+tuyệt đối
+now /naʊ/ adv
+ngay bây giờ
+well /wel/ adv
+(một cách) tốt
+communicate /kəˈmjuː.nɪ.keɪt/ verb
+giao tiếp
+angrily /ˈæŋgrɪli/ adv
+một cách tức giận
+vegetarian /ˌvedʒ.ɪˈteə.ri.ən/ adj
+chay
+student /ˈstudənt/ noun
+học sinh
+understand /ˌʌn.dəˈstænd/ verb
+hiểu
+roast /rəʊst/ verb
+nướng bỏ lò
+wasteful /ˈweɪst.fəl/ adj
+phí phạm
+invite /ɪnˈvaɪt/ verb
+mời
+face /feɪs/ noun
+gương mặt
+dry /draɪ/ adj
+khô
+strongly /ˈstrɒŋli/ adv
+cực kì
+plain /pleɪn/ adj
+nhạt
+qualified /ˈkwɒl.ɪ.faɪd/ adj
+đủ khả năng
+shy /ʃaɪ/ adj
+nhút nhát
+chilled /tʃɪld/ adj
+thư giãn
+consider /kənˈsɪd.ər/ verb
+cân nhắc
+expect /ɪkˈspekt/ verb
+mong đợi
+design /dɪˈzaɪn/ verb
+thiết kế
+thing /θɪŋ/ noun
+sự vật
+job /ʤɑb/ noun
+nghề nghiệp
+decrease /dɪˈkriːs/ verb
+giảm
+revise /rɪˈvaɪz/ verb
+ôn tập
+fact /fækt/ noun
+sự thật
+little /ˈlɪtl/ adv
+một ít
+then /ðɛn/ adv
+sau đó
+employed /ɪmˈplɔɪd/ adj
+có việc làm
+describe /dɪˈskraɪb/ verb
+miêu tả
+story /ˈstɔri/ noun
+câu chuyện
+state /steɪt/ noun
+trạng thái
+weekly /ˈwiː.kli/ adv
+hàng tuần
+pour /pɔːr/ verb
+rót
+quite /kwaɪt/ adv
+hoàn toàn
+persuade /pəˈsweɪd/ verb
+thuyết phục
+tomorrow /təˈmɒrəʊ/ adv
+ngày mai
+totally /ˈtəʊ.təl.i/ adv
+một cách hoàn toàn
+common /ˈkɒm.ən/ adj
+phổ biến
+spend /spend/ verb
+tiêu tiền
+lack /læk/ verb
+thiếu
+air /ɛr/ noun
+không khí
+man /mən/ noun
+đàn ông
+surprise /səˈpraɪz/ verb
+làm bất ngờ
+friendly /ˈfrend.li/ adj
+thân thiện
+soon /suːn/ adv
+sớm thôi
+nasty /ˈnɑː.sti/ adj
+gây khó chịu
+stir-fry /ˈstɜː.fraɪ/ verb
+xào
+life /laɪf/ noun
+cuộc sống
+sign /saɪn/ verb
+kí tên
+delicious /dɪˈlɪʃ.əs/ adj
+ngon miệng
+broke /brəʊk/ adj
+cháy túi
+complicated /ˈkɒm.plɪ.keɪ.tɪd/ adj
+phức tạp
+spicy /ˈspaɪ.si/ adj
+cay
+bustling /ˈbʌs.lɪŋ/ adj
+náo nhiệt
+sparkling /ˈspɑː.klɪŋ/ adj
+có ga
+local /ˈləʊ.kəl/ adj
+thuộc địa phương
+pricey /ˈpraɪ.si/ adj
+đắt đỏ
+power /ˈpaʊər/ noun
+năng lượng
+strong /strɒŋ/ adj
+mạnh mẽ
+mother /'mʌðər/ noun
+mẹ
+attend /əˈtend/ verb
+tham dự
+hike /haɪk/ verb
+đi bộ đường dài
+disappointed /ˌdɪs.əˈpɔɪn.tɪd/ adj
+thất vọng
+original /əˈrɪdʒ.ən.əl/ adj
+nguyên bản
+pickle /ˈpɪk.əl/ verb
+muối chua
+school /skul/ noun
+trường học
+specifically /spəˈsɪfɪk(ə)li/ adv
+cụ thể là
+crowded /ˈkraʊ.dɪd/ adj
+đông đúc
+abroad /əˈbrɔːd/ adv
+ở nước ngoài
+night /naɪt/ noun
+ban đêm
+proud /praʊd/ adj
+tự hào
+cramped /kræmpt/ adj
+chật chội
+oily /ˈɔɪ.li/ adj
+nhiều dầu mỡ
+grow /ɡrəʊ/ verb
+lớn lên
+prepare /prɪˈpeər/ verb
+chuẩn bị
+appealing /əˈpiː.lɪŋ/ adj
+thu hút
+special /ˈspeʃ.əl/ adj
+đặc biệt
+family /ˈfæməli/ noun
+gia đình
+woman /ˈwʊmən/ noun
+phụ nữ
+daily /ˈdeɪ.li/ adv
+hằng ngày
+seldom /ˈsɛldəm/ adv
+hiếm khi
+frozen /ˈfrəʊ.zən/ adj
+đông lạnh
+still /stɪl/ adv
+vẫn
+number /ˈnʌmbər/ noun
+con số
+loudly /ˈlaʊdli/ adv
+một cách ồn áo
+normal /ˈnɔː.məl/ adj
+bình thường
+exciting /ɪkˈsaɪ.tɪŋ/ adj
+gây hứng thú
+teacher /tiʧər/ noun
+giáo viên
+entirely /ɪnˈtaɪəli/ adv
+toàn bộ
+reasonable /ˈriː.zən.ə.bəl/ adj
+phải chăng
+due /dʒuː/ adj
+đến hạn
+explore /ɪkˈsplɔːr/ verb
+khám phá
+safe /seɪf/ adj
+an toàn
+escape /ɪˈskeɪp/ verb
+trốn khỏi
+stir /stɜːr/ verb
+khuấy
+unhealthy /ʌnˈhel.θi/ adj
+không tốt cho sức khoẻ
+child /ʧaɪld/ noun
+con cái
+affordable /əˈfɔː.də.bəl/ adj
+vừa túi tiền
+happily /ˈhæpɪli/ adv
+một cách vui vẻ
+money /ˈmʌni/ noun
+tiền bạc
+study /ˈstʌdi/ noun
+học tập
+area /ˈɛriə/ noun
+khu vực
+recommend /ˌrek.əˈmend/ verb
+đề xuất
+parent /ˈpɛrənt/ noun
+phụ huynh
+traditional /trəˈdɪʃ.ən.əl/ adj
+truyền thống
+welcome /ˈwel.kəm/ verb
+hoan nghênh
+call /kɔːl/ verb
+gọi (ai, là gì)
+punctual /ˈpʌŋk.tʃu.əl/ adj
+đúng giờ
+room /rum/ noun
+căn phòng
+protect /prəˈtekt/ verb
+bảo vệ
+eye /aɪ/ noun
+mắt
+boil /bɔɪl/ verb
+luộc
+beautifully /’bju:təfuli/ adv
+một cách đẹp đẽ
+reason /ˈrizən/ noun
+lý do
+kid /kɪd/ noun
+trẻ con
+pretty /ˈprɪti/ adv
+khá là
+sweet /swiːt/ adj
+ngọt
+issue /ˈɪʃu/ noun
+vấn đề
+force /fɔrs/ noun
+lực lượng
+problem /ˈprɑbləm/ noun
+vấn đề
+always /ˈɔːl.weɪz/ adv
+luôn luôn
+anxiousl /ˈæŋkʃəsli/ adv
+một cách lo âu
+generally /ˈdʒen.ə r.əl.i/
+nhìn chung thì
+rather /ˈrɑːðə/ adv
+khá là
+war /wɔr/ noun
+chiến tranh
+owe /əʊ/ verb
+nợ
+bleed /bliːd/ verb
+chảy máu
+challenging /´tʃælindʒiη/ adj
+mang tính thách thức
+hour /ˈaʊər/ noun
+giờ 
+control /kənˈtrəʊl/ verb
+điều khiển
+way /weɪ/ noun
+con đường
+quickly /ˈkwɪk.li/ adv
+nhanh chóng
+popular /ˈpɒp.jə.lər/ adj
+thịnh hành
+acceptable /əkˈsept.ə.bəl/ adj
+chấp nhận được
+continue /kənˈtɪn.juː/ verb
+tiếp tục
+end /ɛnd/ noun
+kết thúc
+instead /ɪnˈstɛd/ adv
+thay vào đó
+central /ˈsen.trəl/ adj
+ở giữa
+especially /ɪˈspeʃ.əl.i/ adv
+đặc biệt là
+particularly /pəˈtɪk.jə.lə.li/ adv
+đặc biệt là
+right /raɪt/ noun
+quyền lợi
+build /bɪld/ verb
+xây
+law /lɔ/ noun
+luật pháp
+house /haʊs/ noun
+ngôi nhà
+greedily /ˈgriːdɪli/ adv
+một cách tham lam
+change /ʧeɪnʤ/ noun
+thay đổi
+tipsy /ˈtɪp.si/ adj
+ngà ngà say
+morning /ˈmɔrnɪŋ/ noun
+buổi sáng
+yesterday /ˈjɛstədeɪ/ adv
+hôm qua
+succeed /səkˈsiːd/ verb
+thành công
+week /wik/ noun
+tuần
+injure /ˈɪn.dʒər/ verb
+gây thương tích
+expertly /ˈɛkspɜːtli/ adv
+một cách điêu luyện
+perfectly /ˈpɜː.fekt.li/ adv
+một cách hoàn hảo
+time /taɪm/ noun
+thời gian
+besides /bɪˈsaɪdz/ adv
+bên cạnh đó
+finally /ˈfaɪnəli/ adv
+cuối cùng thì
+live /lɪv/ verb
+sinh sống
+one-way /ˌwʌnˈweɪ/ adj
+một chiều
+surround /səˈraʊnd/ verb
+bao quanh
+head /hɛd/ noun
+đầu
+politely /pəˈlaɪt.li/ adv
+một cách lịch sự
+hurt /hɜːt/ verb
+làm bị đau
+exchange /ɪksˈtʃeɪndʒ/ verb
+trao đổi
+last /lɑːst/ verb
+kéo dài
+safely /ˈseɪf.li/ adv
+một cách an toàn
+useless /ˈjuːs.ləs/ adj
+vô dụng
+guy /gaɪ/ noun
+chàng trai
+respect /rɪˈspekt/ verb
+tôn trọng
+month /mʌnθ/ noun
+tháng
+convenient /kənˈviː.ni.ənt/ adj
+tiện lợi
+borrow /ˈbɒr.əʊ/ verb
+mượn
+plant /plɑːnt/ verb
+trồng
+moreover /mɔːˈrəʊvə/ adv
+hơn nữa
+seriously /ˈsɪə.ri.əs.li/ adv
+một cách nghiêm trọng
+tell /tel/ verb
+kể (cho ai)
+service /ˈsɜrvəs/ noun
+dịch vụ
+recklessly /ˈrɛklɪsli/ adv
+một cách bất cẩn
+cheap /tʃiːp/ adj
+rẻ
+offer /ˈɒf.ər/ verb
+đề xuất
+already /ɔːlˈrɛdi/ adv
+đã rồi
+anywhere /ˈɛnɪweə/ adv
+bất kỳ đâu
+door /dɔr/ noun
+cánh cửa
+recently /ˈriːsntli/ adv
+gần đây
+exercise /ˈek.sə.saɪz/ verb
+tập thể dục
+nowhere /ˈnəʊweə/ adv
+không ở đâu cả
+there /ðeə/ adv
+ở kia
+huge /hjuːdʒ/ adj
+rất lớn
+breathe /briːð/ verb
+thở
+early /ˈɜːli/ adv
+sớm
+ease /iːz/ verb
+xoa dịu
+selfish /ˈsel.fɪʃ/ adj
+ích kỉ
+usually /ˈjuːʒʊəli/ adv
+thường xuyên
+almost /ˈɔːlməʊst/ adv
+gần như
+socially /ˈsəʊ.ʃəl.i/ adv
+mang tính xã hội
+avoid /əˈvɔɪd/ verb
+tránh
+hardly /ˈhɑːd.li/ adv
+hầu như không
+place /pleɪs/ noun
+vị trí
+bravely /ˈbreɪvli/ adv
+một cách dũng cảm
+experience /ɪkˈspɪə.ri.əns/ verb
+trải nghiệm
+question /ˈkwɛsʧən/ noun
+câu hỏi
+program /ˈproʊˌgræ m/
+chương trình
+pleasant /ˈplez.ənt/ adj
+dễ chịu
+business /ˈbɪznəs/ noun
+kinh doanh
+obviously /ˈɒb.vi.əs.li/ adv
+hiển nhiên
+hidden /ˈhɪd.ən/ adj
+bị ẩn giấu
+quietly /ˈkwaɪət.li/ adv
+một cách khẽ khàng
+comfortable /ˈkʌm.fə.tə.bəl/ adj
+thoải mái
+save /seɪv/ verb
+tiết kiệm
+lot /lɑt/ noun
+từng phần
+extremely /ɪkˈstriːm.li/ adv
+cực kì
+frequently /ˈfriː.kwənt.li/ adv
+một cách thường xuyên
+fair /feər/ adj
+công bằng
+highly /ˈhaɪli/ adv
+hết sức
+modern /ˈmɒd.ən/ adj
+hiện đại
+team /tim/ noun
+nhóm, đội
+amazing /əˈmeɪ.zɪŋ/ adj
+đáng kinh ngạc
+mostly /ˈməʊst.li/ adv
+hầu như
+generous /ˈdʒen.ər.əs/ adj
+hào phóng
+mainly /ˈmeɪnli/ adv
+chủ yếu là
+crispy /ˈkrɪs.pi/ adj
+giòn
