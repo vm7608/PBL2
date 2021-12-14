@@ -4,23 +4,24 @@
 #include <string>
 #include <cstring>
 #include <algorithm>
-// #include <cctype>
 #include <cwctype>
-#include <io.h>    //setmode lib
-#include <fcntl.h> //setmode lib
+#include <io.h>
+#include <fcntl.h>
 using namespace std;
 
 void setColor();
 void clrscr();
 void pause();
 
-void setMode() // setmode to UTF16 to read and write Vietnamese (đổi sang UTF16 để đọc ghi tiếng Việt)
+//setmode to UTF16 to read and write Vietnamese
+void setMode()
 {
     _setmode(_fileno(stdin), _O_U16TEXT);
     _setmode(_fileno(stdout), _O_U16TEXT);
 }
 
-void setColor(int background_color, int text_color) // change background and text color (đổi màu nền và màu chữ)
+//change background and text color
+void setColor(int background_color, int text_color)
 {
     HANDLE hStdout = GetStdHandle(STD_OUTPUT_HANDLE);
     int color_code = background_color * 16 + text_color;
@@ -33,12 +34,14 @@ void setColor(int background_color, int text_color) // change background and tex
     -------------------------------------------------------------*/
 }
 
-void clrscr() // clear screen (xóa toàn bộ màn hình)
+//clear screen
+void clrscr()
 {
     system("cls");
 }
 
-void pause() // pause screen and waiting (dừng chương trình và đợi)
+//pause screen and waiting
+void pause()
 {
     setColor(0, 10);
     wcout << L"\nLoading......" << endl;
@@ -46,53 +49,54 @@ void pause() // pause screen and waiting (dừng chương trình và đợi)
     system("pause > nul");
 }
 
-void welcomeScreen() //welcome screen (màn hình bắt đầu chương trình)
+//welcome screen
+void welcomeScreen()
 {
     clrscr();
-    wcout << L"+----------------------------------------------+" << endl
-          << L"|    ĐỒ ÁN LẬP TRÌNH TÍNH TOÁN  PBL2 20.15A    |" << endl
-          << L"+----------------------------------------------+" << endl
-          << L"|                                              |" << endl
-          << L"|                   ĐỀ TÀI:                    |" << endl
-          << L"|              TỪ ĐIỂN TIẾNG ANH               |" << endl
-          << L"|           KẾT HỢP TRÒ CHƠI TỪ VỰNG           |" << endl
-          << L"|                                              |" << endl
-          << L"|            Sinh viên thực hiện:              |" << endl
-          << L"|            1. Võ Hoàng Bảo                   |" << endl
-          << L"|            2. Đặng Huỳnh Khánh Dương         |" << endl
-          << L"|            3. Cao Kiều Văn Mạnh              |" << endl
-          << L"|                                              |" << endl
-          << L"|          GVHD: TS. Trần Hồ Thủy Tiên         |" << endl
-          << L"|                                              |" << endl
-          << L"+----------------------------------------------+" << endl
+    wcout << L"\t+----------------------------------------------+" << endl
+          << L"\t|    ĐỒ ÁN LẬP TRÌNH TÍNH TOÁN  PBL2 20.15A    |" << endl
+          << L"\t+----------------------------------------------+" << endl
+          << L"\t|                                              |" << endl
+          << L"\t|                   ĐỀ TÀI:                    |" << endl
+          << L"\t|              TỪ ĐIỂN TIẾNG ANH               |" << endl
+          << L"\t|           KẾT HỢP TRÒ CHƠI TỪ VỰNG           |" << endl
+          << L"\t|                                              |" << endl
+          << L"\t|            Sinh viên thực hiện:              |" << endl
+          << L"\t|            1. Võ Hoàng Bảo                   |" << endl
+          << L"\t|            2. Đặng Huỳnh Khánh Dương         |" << endl
+          << L"\t|            3. Cao Kiều Văn Mạnh              |" << endl
+          << L"\t|                                              |" << endl
+          << L"\t|          GVHD: TS. Trần Hồ Thủy Tiên         |" << endl
+          << L"\t|                                              |" << endl
+          << L"\t+----------------------------------------------+" << endl
           << endl
           << endl;
 }
 
-int selectMenu() // menu for selecting (bảng chọn thao tác cho user)
+//user menu
+int selectMenu()
 {
     // Menu
     clrscr();
-    wcout << L"+----------------------------------------+" << endl
-          << L"|       DICTIONARY AND VOCAB GAME        |" << endl
-          << L"+----------------------------------------+" << endl
-          << L"|                                        |" << endl
-          << L"|          1. Search a word              |" << endl
-          << L"|          2. Add a new word             |" << endl
-          << L"|          3. Delete a word              |" << endl
-          << L"|          4. Edit a word                |" << endl
-          << L"|          5. Game                       |" << endl
-          << L"|          6. Exit and save              |" << endl
-          << L"|                                        |" << endl
-          << L"+----------------------------------------+" << endl
+    wcout << L"\t+----------------------------------------+" << endl
+          << L"\t|       DICTIONARY AND VOCAB GAME        |" << endl
+          << L"\t+----------------------------------------+" << endl
+          << L"\t|                                        |" << endl
+          << L"\t|          1. Search a word              |" << endl
+          << L"\t|          2. Add a new word             |" << endl
+          << L"\t|          3. Delete a word              |" << endl
+          << L"\t|          4. Edit a word                |" << endl
+          << L"\t|          5. Game                       |" << endl
+          << L"\t|          6. Exit and save              |" << endl
+          << L"\t|                                        |" << endl
+          << L"\t+----------------------------------------+" << endl
           << endl;
-    //Validate choices (kiểm tra các lựa chọn của user)
+    //Validate choices
     bool isSelected = false;
     int selection;
     do
     {
-        // isSelected = false; //dư à?
-        wcout << L"\n===>> Choose your option: ";
+        wcout << L"\n==>> Select one function: ";
         fflush(stdin);
         wcin >> selection;
 
@@ -102,23 +106,28 @@ int selectMenu() // menu for selecting (bảng chọn thao tác cho user)
         else
             wcout << L"\nFail! Invalid choice!" << endl;
     } while (!isSelected);
-
     return selection;
 }
 
-int toContinue() // check if user want to continue (kiểm tra nếu user muốn thực hiện lại thao tác)
+//check if user want to continue
+int toContinue()
 {
     int selection;
-    wcout << L"\n\nPress 1 to continue.\nPress 2 to back to menu.\nPress any key else to exit.\n===>> Select one: ";
+    wcout << L"\n\n--++----------++--" << endl;
+    wcout << L"Press 1 to continue." << endl;
+    wcout << L"Press 2 to back to menu." << endl;
+    wcout << L"Press any key else to exit." << endl;
+    wcout << L"==>> Select one: ";
     fflush(stdin);
     wcin >> selection;
     return selection;
 }
 
-void exitScreen() // goodbye screen (màn hình kết thúc chương trình)
+//exit screen
+void exitScreen()
 {
     clrscr();
-    wifstream exitFile(L"./datafile/thanks.txt");
+    wifstream exitFile(L"./data/thanks.txt");
     wchar_t str[300];
     if (exitFile.fail())
         wcout << L"Failed to open data file!" << endl;

@@ -7,15 +7,15 @@ using namespace std;
 class dictionary
 {
 private:
-    hashTable myDict;
+    hashTable appDict;
 
 public:
     dictionary();
-    void addNewWordToDictionary();
-    void delWordFromDictionary();
-    void searchWordInDictionary();
-    void editWordInDictionary();
-    void playGame();
+    void addNewWordToDictionary();   
+    void delWordFromDictionary();    
+    void searchWordInDictionary();   
+    void editWordInDictionary();     
+    void playGame();                 
     void updateToFile();
     ~dictionary();
 };

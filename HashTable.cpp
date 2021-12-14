@@ -3,7 +3,6 @@
 #include "HashTable.h"
 #include <cstring>
 #include <bits/stdc++.h>
-// #include "Format.h"
 using namespace std;
 
 hashTable::hashTable(int size)
@@ -12,8 +11,8 @@ hashTable::hashTable(int size)
     table = new linkedList[this->tableSize];
 
     word temp;
-    wstring trash; //read trash character (đọc kí tự rác)
-    wifstream input(L"./datafile/input.txt");
+    wstring trash; 
+    wifstream input(L"./data/input.txt");
 
     std::locale loc(std::locale(), new std::codecvt_utf8<wchar_t>);
 
@@ -27,7 +26,7 @@ hashTable::hashTable(int size)
             input >> temp.eWord;
             input >> temp.pronunciation;
             input >> temp.type;
-            getline(input, trash, L'\n');
+            getline(input, trash, L'\n'); //ignore trash char
             getline(input, temp.vnMeaning, L'\n');
             this->addToTable(temp);
         }
@@ -72,11 +71,13 @@ void hashTable::traverseTable()
     }
 }
 
+//return searched word or return an empty word if can't find input word
 word hashTable::findInTable(wstring inputWord)
 {
     word temp;
     int viTri = hashFunction(inputWord);
     int position = table[viTri].findNode(inputWord);
+    //check if the list is empty or word is in list or not
     if (this->table[viTri].isEmpty() || position == -1)
     {
         return temp;
@@ -99,11 +100,13 @@ hashTable::~hashTable()
 
 void hashTable::editInTable(wstring inputWord, int userChoice)
 {
-    /*case 1: edit eWord
-      case 2: edit type
-      case 3: edit pronunciation
-      case 4: edit vnMeaning 
-      case 5: break and return*/
+    /*
+    case 1: edit eWord
+    case 2: edit type
+    case 3: edit pronunciation
+    case 4: edit vnMeaning 
+    case 5: break and return
+    */
     switch (userChoice)
     {
         case 1:
@@ -112,15 +115,16 @@ void hashTable::editInTable(wstring inputWord, int userChoice)
             wcout << L"Enter edited English word: ";
             std::fflush(stdin);
             getline(wcin, editedWord.eWord);
-            
-            if (this->addToTable(editedWord)) {
-                this->delFromTable(inputWord); // check it
+
+            if (this->addToTable(editedWord))
+            {
+                this->delFromTable(inputWord);
             }
-            else {
-                wcout << L"\nFail! The edited word has already in the dictionary!" <<endl;
+            else
+            {
+                wcout << L"\nFail! The edited word has already in the dictionary!" << endl;
                 return;
             }
-            
             break;
         }
         case 2:

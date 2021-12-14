@@ -278,6 +278,8 @@ cautiously /ˈkɔːʃəsli/ adv
 một cách cần trọng
 jobless /ˈdʒɒb.ləs/ adj
 thất nghiệp
+hello /heˈloʊ/ exclamation
+xin chào
 others /ˈʌðərz/ noun
 những cái khác
 tasty /ˈteɪ.sti/ adj
@@ -298,12 +300,16 @@ manage /ˈmæn.ɪdʒ/ verb
 quản lý
 strict /strɪkt/ adj
 nghiêm ngặt
+you /ju:/ pronoun
+bạn (đại từ)
 admit /ədˈmɪt/ verb
 thừa nhận
 spell /spel/ verb
 đánh vần
 through /θruː/ adv
 xuyên suốt
+pointer /ˈpoin(t)ər/ noun
+con trỏ
 nervous /ˈnɜː.vəs/ adj
 lo lắng
 raise /reɪz/ verb
@@ -432,6 +438,8 @@ stir-fry /ˈstɜː.fraɪ/ verb
 xào
 life /laɪf/ noun
 cuộc sống
+bye /baɪ/ exclamation
+tạm biệt
 sign /saɪn/ verb
 kí tên
 delicious /dɪˈlɪʃ.əs/ adj
@@ -444,6 +452,8 @@ spicy /ˈspaɪ.si/ adj
 cay
 bustling /ˈbʌs.lɪŋ/ adj
 náo nhiệt
+goodbye /ɡʊdˈbaɪ/ exclamation
+tạm biệt
 sparkling /ˈspɑː.klɪŋ/ adj
 có ga
 local /ˈləʊ.kəl/ adj
@@ -478,6 +488,8 @@ night /naɪt/ noun
 ban đêm
 proud /praʊd/ adj
 tự hào
+phone /foʊn/ noun
+điện thoại
 cramped /kræmpt/ adj
 chật chội
 oily /ˈɔɪ.li/ adj
@@ -490,6 +502,8 @@ appealing /əˈpiː.lɪŋ/ adj
 thu hút
 special /ˈspeʃ.əl/ adj
 đặc biệt
+hi /haɪ/ exclamation
+chào
 family /ˈfæməli/ noun
 gia đình
 woman /ˈwʊmən/ noun
@@ -606,6 +620,8 @@ acceptable /əkˈsept.ə.bəl/ adj
 chấp nhận được
 continue /kənˈtɪn.juː/ verb
 tiếp tục
+run /rʌn/ verb
+chạy
 end /ɛnd/ noun
 kết thúc
 instead /ɪnˈstɛd/ adv
@@ -638,6 +654,8 @@ succeed /səkˈsiːd/ verb
 thành công
 week /wik/ noun
 tuần
+we /wi:/ pronoun
+chúng tôi, chúng ta
 injure /ˈɪn.dʒər/ verb
 gây thương tích
 expertly /ˈɛkspɜːtli/ adv
@@ -760,6 +778,8 @@ extremely /ɪkˈstriːm.li/ adv
 cực kì
 frequently /ˈfriː.kwənt.li/ adv
 một cách thường xuyên
+laptop /ˈlæp.tɑːp/ noun
+máy tính
 fair /feər/ adj
 công bằng
 highly /ˈhaɪli/ adv

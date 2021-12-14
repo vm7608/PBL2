@@ -8,15 +8,14 @@
 #include "game.h"
 using namespace std;
 
-wstring toLowerCase(wstring eWord)
+// convert to lower case
+wstring toLowerCase(wstring eWord) 
 {
     transform(eWord.begin(), eWord.end(), eWord.begin(), ::tolower);
     return eWord;
 }
 
-dictionary::dictionary()
-{
-}
+dictionary::dictionary() {}
 
 void dictionary::searchWordInDictionary()
 {
@@ -24,18 +23,21 @@ void dictionary::searchWordInDictionary()
     word result;
     word empty;
     wstring inputWord;
-    wcout << L"<<===== SEARCHING =====>>" << endl;
-    wcout << L"Enter the word you want to search: ";
+
+    wcout << L"\t<<===== SEARCHING =====>>" << endl;
+    wcout << L"\nEnter the word you want to search: ";
     std::fflush(stdin);
     getline(wcin, inputWord);
     inputWord = toLowerCase(inputWord);
     wcout << L"\nSearching..." << endl;
-    result = this->myDict.findInTable(inputWord);
+
+    result = this->appDict.findInTable(inputWord);
+    //check if result is an empty word (that's mean word isn't in dictionary)
     if (result == empty)
     {
         wcout << L"\nFail! This word isn't in the dictionary!" << endl;
     }
-    else
+    else //print out searched word
     {
         wcout << result;
     }
@@ -44,13 +46,13 @@ void dictionary::searchWordInDictionary()
 void dictionary::addNewWordToDictionary()
 {
     system("cls");
-
     word temp;
-    wcout << L"<<===== ADDING =====>>" << endl;
+    wcout << L"\t<<===== ADDING =====>>" << endl;
     wcin >> temp;
     temp.eWord = toLowerCase(temp.eWord);
     wcout << L"\nAdding..." << endl;
-    if (this->myDict.addToTable(temp))
+
+    if (this->appDict.addToTable(temp))
     {
         wcout << L"\nSuccessfully added!" << endl;
     }
@@ -64,19 +66,21 @@ void dictionary::delWordFromDictionary()
 {
     system("cls");
     wstring inputWord;
-    wcout << L"<<===== DELETING =====>" << endl;
-    wcout << L"Enter the word you want to delete: ";
+
+    wcout << L"\t<<===== DELETING =====>>" << endl;
+    wcout << L"\nEnter the word you want to delete: ";
     std::fflush(stdin);
     getline(wcin, inputWord);
     inputWord = toLowerCase(inputWord);
-    wcout << L"Deleting..." << endl;
-    if (this->myDict.delFromTable(inputWord))
+    wcout << L"\nDeleting..." << endl;
+
+    if (this->appDict.delFromTable(inputWord))
     {
-        wcout << L"Successfully deleted!" << endl;
+        wcout << L"\nSuccessfully deleted!" << endl;
     }
     else
     {
-        wcout << L"Fail! This word isn't in the dictionary!" << endl;
+        wcout << L"\nFail! This word isn't in the dictionary!" << endl;
     }
 }
 
@@ -86,13 +90,15 @@ void dictionary::editWordInDictionary()
     word result;
     word empty;
     wstring inputWord;
-    wcout << L"<<===== EDITING =====>>" << endl;
-    wcout << L"Enter the word you want to edit: ";
+
+    wcout << L"\t<<===== EDITING =====>>" << endl;
+    wcout << L"\nEnter the word you want to edit: ";
     std::fflush(stdin);
     getline(wcin, inputWord);
     inputWord = toLowerCase(inputWord);
 
-    result = this->myDict.findInTable(inputWord);
+    //check if edited word is currently in table or not
+    result = this->appDict.findInTable(inputWord);
     if (result == empty)
     {
         wcout << L"\nFail! This word isn't in the dictionary!" << endl;
@@ -107,15 +113,15 @@ void dictionary::editWordInDictionary()
     wcout << endl;
     wcout << L"+------ Choose your editing option ------+" << endl
           << L"|                                        |" << endl
-          << L"|      1. Edit English word              |" << endl
-          << L"|      2. Edit word's type               |" << endl
-          << L"|      3. Edit word's pronunciation      |" << endl
-          << L"|      4. Edit Vietnamese meaning        |" << endl
-          << L"|      5. Return                         |" << endl
+          << L"|       1. Edit English word             |" << endl
+          << L"|       2. Edit word's type              |" << endl
+          << L"|       3. Edit word's pronunciation     |" << endl
+          << L"|       4. Edit Vietnamese meaning       |" << endl
+          << L"|       5. Return                        |" << endl
           << L"|                                        |" << endl
           << L"+----------------------------------------+" << endl;
 
-    //Validate choices (kiểm tra các lựa chọn của user)
+    //Validate choices
     bool isSelected = false;
     int selection;
     do
@@ -130,37 +136,36 @@ void dictionary::editWordInDictionary()
         else
             wcout << L"\nFail! Invalid choice!" << endl;
     } while (!isSelected);
-    this->myDict.editInTable(inputWord, selection);
+
+    this->appDict.editInTable(inputWord, selection);
     
 }
 
 void dictionary::playGame()
 {
     system("cls");
-    wcout << L"<<=====PLAYING GAME=====>>" << endl;
+    wcout << L"\t<<===== PLAYING GAME =====>>" << endl;
     Game dictGame;
     wcout << L"\nLoading game..." <<endl;
     system("pause > nul");
     dictGame.Start();
-    
-    // nối của dương vào
 }
 
 void dictionary::updateToFile()
 {
     word temp;
     wfstream input;
-    input.open(L"./datafile/input.txt", ios::out);
+    input.open(L"./data/input.txt", ios::out);
     std::locale loc(std::locale(), new std::codecvt_utf8<wchar_t>);
     input.imbue(loc);
     input.close();
 
     wcout << L"Waiting for updating data..." << endl;
-    for (int i = 0; i < this->myDict.tableSize; i++)
+    for (int i = 0; i < this->appDict.tableSize; i++)
     {
-        if (this->myDict.table[i].isEmpty())
+        if (this->appDict.table[i].isEmpty())
             continue;
-        this->myDict.table[i].saveListToFile();
+        this->appDict.table[i].saveListToFile();
     }
     wcout << L"Successfully saved!" << endl;
     system("pause");
@@ -170,6 +175,5 @@ dictionary::~dictionary()
 {
     system("cls");
     wcout << L"Waiting for cleaning memory..." << endl;
-    // myDict.~hashTable(); // có vẻ gọi như này nó sẽ lỗi gì đó, có crack nhẹ
     wcout << L"Cleaning done!" << endl;
 }

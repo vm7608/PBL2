@@ -17,23 +17,23 @@ public:
     }
     friend class linkedList;
 };
-
+/**************/
 class linkedList
 {
 private:
     node *head;
 
 public:
-    linkedList();                      // hàm dựng list
-    ~linkedList();                     // hàm hủy list
-    int listLenght();                  // trả về độ dài list
-    word getNode(int position);        // trả về từ của node có vị trí = postion
-    bool delNode(wstring deletedWord); // xóa node khỏi list: true - thành công; false - không có node để xóa
-    bool addNode(word newWord);        // thêm node vào đầu list: true - thành công; false - từ đã có trong từ điển
-    bool isEmpty();                    // kiểm tra list: true -> rỗng, false -> không rỗng
-    int findNode(wstring eWord);       // trả về position của node hoặc -1 (không có node)
+    linkedList();
+    ~linkedList();
+    int listLenght();                  // return list lenght
+    word getNode(int position);        // return data (word) of the node has position
+    bool delNode(wstring deletedWord); // true - success; false - fail (nothing to del)
+    bool addNode(word newWord);        // true - success; false - fail (word has already in list)
+    bool isEmpty();                    // true - empty; false - not empty
+    int findNode(wstring eWord);       // return node's position or -1 (node isn't in list)
     void printList();                  // in toàn bộ list
-    void saveListToFile();
+    void saveListToFile();             // save data back to input.txt - mode append
 };
 
 #endif //LINKEDLIST_H

@@ -1,8 +1,8 @@
 #include <iostream>
 #include <string>
 #include <cstring>
-#include <io.h>    //thư viện nhập wstr
-#include <fcntl.h> // thư viện nhập wstr
+#include <io.h>    //wstr
+#include <fcntl.h> //wstr
 #include "Word.h"
 using namespace std;
 
@@ -22,9 +22,7 @@ word::word(const word &a)
     this->vnMeaning = a.vnMeaning;
 }
 
-word::~word()
-{
-}
+word::~word() {}
 
 const word &word::operator=(const word &x)
 {
@@ -41,7 +39,7 @@ wostream &operator<<(wostream &out, const word &a)
     wcout << L"------------" << endl;
     wcout << a.eWord << endl;
     wcout << L"Word's type: " << a.type << endl;
-    wcout << L"Word's pronunciation:: " << a.pronunciation << endl;
+    wcout << L"Word's pronunciation: " << a.pronunciation << endl;
     wcout << L"Vietnamese meaning: " << a.vnMeaning << endl;
     wcout << L"------------" << endl;
     return out;

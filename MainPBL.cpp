@@ -20,7 +20,6 @@ int main()
 		case 1:
 		{
 			SEARCH:
-			pause();
 			application.searchWordInDictionary();
 			check = toContinue();
 			if (check == 1) goto SEARCH;
@@ -30,7 +29,6 @@ int main()
 		case 2:
 		{
 			ADD:
-			pause();
 			application.addNewWordToDictionary();
 			check = toContinue();
 			if (check == 1) goto ADD;
@@ -40,7 +38,6 @@ int main()
 		case 3:
 		{
 			DEL:
-			pause();
 			application.delWordFromDictionary();
 			check = toContinue();
 			if (check == 1) goto DEL;
@@ -50,7 +47,6 @@ int main()
 		case 4:
 		{
 			EDIT:
-			pause();
 			application.editWordInDictionary();
 			check = toContinue();
 			if (check == 1) goto EDIT;
@@ -60,7 +56,6 @@ int main()
 		case 5:
 		{
 			GAME:
-			pause();
 			application.playGame();
 			check = toContinue();
 			if (check == 1) goto GAME;
@@ -72,8 +67,8 @@ int main()
 			break;
 		}
 	}
+	
 	clrscr();
-	pause();
 	application.updateToFile();
 	exitScreen();
 	return 0;

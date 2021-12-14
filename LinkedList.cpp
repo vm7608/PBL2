@@ -50,30 +50,34 @@ bool linkedList::delNode(wstring deletedWord)
     int k = 0;
     node *temp = this->head;
 
-    if (head == NULL || position == -1) // danh sách rỗng, hoặc từ không có trong ds
+    // if list is empty or word is not in list
+    if (head == NULL || position == -1) 
     {
         return false;
     }
 
-    if (this->head->next == NULL || position == 0) // list chỉ có mình head hoặc vị trí cần xóa là head
+    // if list has only head or the node to be deleted is head
+    if (this->head->next == NULL || position == 0) 
     {
         this->head = this->head->next;
     }
-    else // trường hợp còn lại
+    else //other cases
     {
         while (temp != NULL && k != position - 1)
         {
             temp = temp->next;
-            ++k; // phần tử trước pt cần xóa
+            ++k; //go to node before the node to be deleted
         }
-        temp->next = temp->next->next; // đưa con trỏ ra phía sau phần tử cần xóa
+        temp->next = temp->next->next; // put pointer after the node to be deleted
     }
     return true;
 }
 
+// this func add new node to the head of list
 bool linkedList::addNode(word newWord)
-{                                                               // thêm node vào đầu dslk
-    if (this->isEmpty() || this->findNode(newWord.eWord) == -1) // nếu danh sách rỗng hoặc ko có từ đó trong list
+{                                    
+    // list is empty or new word is not in list => add                           
+    if (this->isEmpty() || this->findNode(newWord.eWord) == -1) 
     {
         node *temp = new node();
         temp->data = newWord;
@@ -81,7 +85,7 @@ bool linkedList::addNode(word newWord)
         head = temp;
         return true;
     }
-    else // từ đã có trong list
+    else // if word has already in list => return false
     {
         return false;
     }
@@ -106,7 +110,7 @@ int linkedList::findNode(wstring eWord)
         }
         ++position;
     }
-    return -1; // nghĩa là ko có node
+    return -1; // -1 means node isn't in list
 }
 
 void linkedList::printList()
@@ -118,13 +122,14 @@ void linkedList::printList()
     }
 }
 
+//save all word in list into input file
 void linkedList::saveListToFile()
 {
     node *temp = this->head;
     word tempWord;
 
     wfstream input;
-    input.open(L"./datafile/input.txt", ios::app);
+    input.open(L"./data/input.txt", ios::app);
     std::locale loc(std::locale(), new std::codecvt_utf8<wchar_t>);
     input.imbue(loc);
 

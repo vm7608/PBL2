@@ -13,12 +13,12 @@ private:
 public:
     hashTable(int kichThuocTuDien = 400);
     int hashFunction(wstring value);
-    bool addToTable(word input);                         // thêm từ vào bảng true - oke; false - fail
-    bool delFromTable(wstring inputWord);                // xóa từ khỏi bảng true - oke; false - fail
-    void editInTable(wstring inputWord, int userChoice); // sửa từ trong bảng: true - oke; false - fail
-    void traverseTable();                                // duyệt qua bảng băm
-    word findInTable(wstring inputWord);                 // tìm và trả về từ tìm được
-    bool fastFind(wstring inputWord);                    // tìm nhanh 1 từ trong bảng true có - false không
+    bool addToTable(word input);                         // add new word; true - oke; false - fail
+    bool delFromTable(wstring inputWord);                // del word; true - oke; false - fail
+    void editInTable(wstring inputWord, int userChoice); // edit word; true - oke; false - fail
+    word findInTable(wstring inputWord);                 // find and return word
+    bool fastFind(wstring inputWord);                    // fast find the word
+    void traverseTable();                                // traverse table
     ~hashTable();
 
     friend class dictionary;
