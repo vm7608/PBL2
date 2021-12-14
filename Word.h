@@ -19,7 +19,6 @@ public:
     bool operator==(word a);
     friend wistream &operator>>(wistream &in, word &a);
     friend wostream &operator<<(wostream &out, const word &a);
-
     friend class dictionary;
     friend class hashTable;
     friend class linkedList;
